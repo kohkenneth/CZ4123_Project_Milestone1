@@ -101,3 +101,7 @@ with open("ScanResults.csv", 'w', newline="") as f:
     write = csv.writer(f)
     write.writerow(headers)
     write.writerows(results)
+    
+# Task 2 - Disk Based Implementation
+
+# Reading input from csv file into intermediate txt files first
